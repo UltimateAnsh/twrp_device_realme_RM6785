@@ -134,3 +134,20 @@ TW_CUSTOM_CPU_TEMP_PATH := /sys/class/power_supply/battery/temp
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+# SHRP-specific lines
+SHRP_PATH := device/realme/RMX2151
+SHRP_MAINTAINER := EvilAnsh
+SHRP_DEVICE_CODE := RMX2151
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A_only
+SHRP_OFFICIAL := false
+SHRP_NOTCH := true
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_REC := /dev/block/by-name/recovery 
+SHRP_DARK := true
+INC_IN_REC_MAGISK := true
