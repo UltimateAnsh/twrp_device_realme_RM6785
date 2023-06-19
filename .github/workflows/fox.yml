@@ -109,8 +109,6 @@ jobs:
         set +e
         source build/envsetup.sh
         export ALLOW_MISSING_DEPENDENCIES=true
-        export OF_TARGET_DEVICES="RMX2151,RMX2151L1,RMX2153,RMX2153L1,RMX2155,RMX2155L1"
-        export OF_TARGET_DEVICES="RMX2001,RMX2001L1,RMX2002,RMX2002L1,RMX2003,RMX2003L1"
         export OF_MAINTAINER=EvilAnsh
         export TW_PREPARE_DATA_MEDIA_EARLY=true
         export OF_USE_LATEST_MAGISK=true
