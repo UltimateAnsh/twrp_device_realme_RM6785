@@ -114,7 +114,7 @@ jobs:
         export OF_USE_LATEST_MAGISK=true
         export OF_FL_PATH1="/system/flashlight"
         export OF_STATUS_H="102"
-        export OF_STATUS_INDENT_LEFT="155"
+        export OF_STATUS_INDENT_LEFT="160"
         export OF_STATUS_INDENT_RIGHT="48"
         export FOX_VARIANT="RUI2.0"
         set -e
