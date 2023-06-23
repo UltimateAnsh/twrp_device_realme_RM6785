@@ -35,11 +35,11 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_RMX2151'
+        default: 'omni_RMX2151'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
-        default: 'recovery'
+        default: 'pbrp'
 
 jobs:
   build:
@@ -159,7 +159,7 @@ jobs:
         source build/envsetup.sh
         export ALLOW_MISSING_DEPENDENCIES=true
         export TW_PREPARE_DATA_MEDIA_EARLY=true
-        lunch ${{ github.event.inputs.MAKEFILE_NAME }}-eng && make clean && mka pbrp
+        lunch ${{ github.event.inputs.MAKEFILE_NAME }}-eng && make clean && mka ${{ github.event.inputs.BUILD_TARGET }} -j$(nproc --all)
       working-directory: ${{ steps.pwd.outputs.pwd }}
 
     - name: Upload to Release
