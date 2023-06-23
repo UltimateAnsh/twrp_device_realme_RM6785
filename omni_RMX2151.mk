@@ -17,7 +17,7 @@ $(call inherit-product, vendor/pb/config/common.mk)
 $(call inherit-product, device/realme/RMX2151/device.mk)
 
 PRODUCT_DEVICE := RMX2151
-PRODUCT_NAME := twrp_RMX2151
+PRODUCT_NAME := omni_RMX2151
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme 7
 PRODUCT_MANUFACTURER := realme
