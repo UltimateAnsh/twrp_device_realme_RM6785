@@ -112,10 +112,7 @@ jobs:
         export OF_MAINTAINER=EvilAnsh
         export TW_PREPARE_DATA_MEDIA_EARLY=true
         export OF_USE_LATEST_MAGISK=true
-        export OF_FL_PATH1="/system/flashlight"
-        export OF_STATUS_H="102"
-        export OF_STATUS_INDENT_LEFT="160"
-        export OF_STATUS_INDENT_RIGHT="48"
+        export OF_FL_PATH1="/sys/class/flashlight"
         export FOX_VARIANT="RUI2.0"
         set -e
         lunch ${{ github.event.inputs.MAKEFILE_NAME }}-eng && make clean && mka adbd ${{ github.event.inputs.BUILD_TARGET }}image -j$(nproc --all)
