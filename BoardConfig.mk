@@ -136,5 +136,5 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
 # PBRP Build Flags
-PB_TORCH_PATH := "/proc/qcom_flash"
+PB_TORCH_PATH := "/sys/class/flashlight"
 PB_TORCH_MAX_BRIGHTNESS := 1
