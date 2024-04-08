@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_RMX2001.mk
+    $(LOCAL_DIR)/omni_RM6785.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_RMX2001-user \
-    omni_RMX2001-userdebug \
-    omni_RMX2001-eng
+    omni_RM6785-user \
+    omni_RM6785-userdebug \
+    omni_RM6785-eng
