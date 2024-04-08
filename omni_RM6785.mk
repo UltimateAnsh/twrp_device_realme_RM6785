@@ -13,11 +13,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Inherit some common PBRP stuff.
 $(call inherit-product, vendor/pb/config/common.mk)
 
-# Inherit from RMX2151 device
-$(call inherit-product, device/realme/RMX2001/device.mk)
+# Inherit from RM6785 device
+$(call inherit-product, device/realme/RM6785/device.mk)
 
-PRODUCT_DEVICE := RMX2001
-PRODUCT_NAME := omni_RMX2001
+PRODUCT_DEVICE := RM6785
+PRODUCT_NAME := omni_RM6785
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := Realme 6
+PRODUCT_MODEL := Realme RM6785
 PRODUCT_MANUFACTURER := realme
